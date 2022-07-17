@@ -1,0 +1,15 @@
+.item_cart {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    background-color: beige;
+    width: 85vw;
+    height: 5vh;
+
+}
+
+.item_cart h3 {
+    text-align: center;
+    font-size: 16px;
+    padding: 0 30px;
+}

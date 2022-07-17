@@ -1,0 +1,8 @@
+.cardlist_container{
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    list-style: none;
+}
