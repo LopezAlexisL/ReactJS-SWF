@@ -1,0 +1,14 @@
+.cart_logo_container {
+    text-decoration: none;
+}
+
+.cart_logo_container .cart_logo{
+    text-decoration: none;
+    color: rgb(241, 217, 0);
+    font-size: 1.5rem;
+}
+
+.cart_logo_container .cart_logo .logo{
+    height: 4vh;
+    width: auto;
+}

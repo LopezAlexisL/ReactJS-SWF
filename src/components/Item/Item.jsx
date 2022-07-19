@@ -12,8 +12,6 @@ function Item(props) {
         {props.name}
         </p>
 
-        <Link to={`/detail/${props.id}`}> View Detail </Link>
-
         <button onClick={()=>setShowDetail(!showDetail)}><Link className="link" to={`/item/${props.id}`}>Ver Detalles</Link></button>
 
     </div>

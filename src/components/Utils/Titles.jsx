@@ -4,8 +4,8 @@ import './title.css'
 
 function Titles() {
   return (
-    <h3>
-        <Link to='/' className='title'> Star Wars Funko</Link>
+    <h3 className='title'>
+        <Link to='/' className='title_link'> Star Wars Funko</Link>
     </h3>
   )
 }

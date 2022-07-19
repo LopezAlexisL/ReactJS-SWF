@@ -4,5 +4,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: auto;
+    padding: unset;
     list-style: none;
 }

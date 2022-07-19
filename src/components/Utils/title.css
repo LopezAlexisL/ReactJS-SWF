@@ -1,4 +1,10 @@
-.title{
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem auto;
+}
+
+.title .title_link{
     text-decoration: none;
-    color: black;
+    color: rgb(241, 217, 0);
   }
