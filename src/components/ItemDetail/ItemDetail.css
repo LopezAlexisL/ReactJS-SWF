@@ -6,7 +6,7 @@
 
 .itemdetail_container .leftSide{
     width: 60vw;
-    height: 85vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -29,4 +29,12 @@
 
 .itemdetail_container button{
     width: 9rem;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 17);
+    color: white;
+    font-weight: 900;
+    font-size: 0.9rem;
+    margin: 5px;
 }

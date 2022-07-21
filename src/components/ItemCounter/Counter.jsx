@@ -21,10 +21,11 @@ function Counter ({ stock = 0, initial = 1, onAdd, prod }) {
                 <button onClick={reduce}>-</button>
                 <p> You've added {count} products to the cart </p>
                 <button onClick={increase}>+</button>
+                <button onClick={()=> onAdd(prod, count)}>Add to Cart</button>
                 <button onClick={reset}>Reset</button>
+
             </div>
             <div>
-                <button onClick={()=> onAdd(prod, count)}>Add to Cart</button>|
             </div>
         </div>
     );

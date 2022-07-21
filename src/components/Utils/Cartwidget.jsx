@@ -12,7 +12,7 @@ function Cartwidget() {
     <div className='cart_logo_container'>
         <Link className='cart_logo' to={'/cart'}>
             <FaShoppingCart className='logo'/>
-            {numOfProd}
+            {' '+numOfProd}
         </Link>
     </div>
   )
