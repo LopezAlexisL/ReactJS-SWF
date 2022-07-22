@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react'
 import CartContext from '../Utils/CartContext'
+import './CartCheckout.css'
 
 import { addDoc, collection, documentId, getDocs, query, where, writeBatch } from 'firebase/firestore'
 import db from '../services/firebase'
@@ -81,13 +82,14 @@ function CartCheckout() {
   //######################
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <input type="text" name='nombre' placeholder='nombre'/>
-        <input type="text" name='email' placeholder='email'/>
-        <input type="text" name='telefono' placeholder='telefono'/>
-        <input type="text" name='direccion' placeholder='direccion'/>
-        <input type="submit" value="CONFIRMAR" />
+    <div className='form_container'>
+      <form className='form' onSubmit={handleSubmit}>
+        <h2>Please fill this form so we can send the product/s to your galaxy</h2>
+        <input className='form_input' type="text" name='nombre' placeholder='nombre'/>
+        <input className='form_input' type="text" name='email' placeholder='email'/>
+        <input className='form_input' type="text" name='telefono' placeholder='telefono'/>
+        <input className='form_input' type="text" name='direccion' placeholder='direccion'/>
+        <input className='form_input submit' type="submit" value="CONFIRMAR" />
       </form>
     </div>
   )
