@@ -4,7 +4,7 @@ Este proyecto fue realizado por Alexis Lopez para el curso de ReactJS en Coderho
 
 El e-commerce es posible verlo desde el sitio de github pages 
 
-Para poder visualizar el sitio se tiene que tener en cuenta lo siguiente
+Para poder visualizar el sitio utilizando el codigo se tiene que tener en cuenta lo siguiente
 
 ## 'clonar el repositorio desde GitHub'
 
@@ -26,7 +26,7 @@ miapp/ezgif.com-gif-maker (2).gif
 
 Ruta al gif subido en GitHub
 
-https://github.com/AlexL26/ReactJS/blob/main/ezgif.com-gif-maker%20(2).gif
+https://github.com/LopezAlexisL/ReactJS-SWF/blob/main/ezgif.com-gif-maker.gif
 ----------------------------------------------------------------------------
 
 A continuación se mencionan documentacion e instrucciones relacionadas a React.
