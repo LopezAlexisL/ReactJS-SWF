@@ -5,8 +5,8 @@ function ItemCart({ prop }) {
   return (
     <div className='item_cart'>
       <div className='item_cart_img'>
-        
-      <img  src={prop.img} alt={prop.name} />
+
+        <img src={prop.img} alt={prop.name} />
       </div>
       <div className='item_description item_description_product'>
         <h3>Product: </h3>
@@ -23,7 +23,7 @@ function ItemCart({ prop }) {
       </div>
       <div className='item_description item_description_quantity'>
 
-        <h3>Num of Products: </h3>
+        <h3>Quantity: </h3>
         <p>{prop.quantity}</p>
       </div>
     </div>

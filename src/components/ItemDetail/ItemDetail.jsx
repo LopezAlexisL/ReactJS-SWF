@@ -21,13 +21,13 @@ function ItemDetail(props) {
 
       <div className="rightSide">
         <h2>
-            {props.name}
+          {props.name}
         </h2>
         <p>
-        {props.side}
+          {props.side}
         </p>
         <h3>
-        {props.price}$
+          {props.price}$
         </h3>
         <div className="itemCount">
           <Counter stock={props.stock} prod={props} onAdd={handleAdd} />

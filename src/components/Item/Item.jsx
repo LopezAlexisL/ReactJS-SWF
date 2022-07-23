@@ -6,13 +6,13 @@ function Item(props) {
 
   return (
     <div className='card_container'>
-        <img src={props.img} alt={props.name} />
+      <img src={props.img} alt={props.name} />
 
-        <p>
+      <p>
         {props.name}
-        </p>
+      </p>
 
-        <button onClick={()=>setShowDetail(!showDetail)}><Link className="link" to={`/item/${props.id}`}>Ver Detalles</Link></button>
+      <button onClick={() => setShowDetail(!showDetail)}><Link className="link" to={`/item/${props.id}`}>View Details</Link></button>
 
     </div>
   )

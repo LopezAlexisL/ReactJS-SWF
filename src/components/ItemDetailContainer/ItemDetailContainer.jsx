@@ -27,15 +27,6 @@ function ItemDetailContainer() {
       setLoading(false)
     })
 
-    //DESDE LOCAL
-
-    // getProductsById(param.id).then(response => {
-    //   setItem(response)
-    // }).catch((error) => {
-    //   console.log(error)
-    // }).finally(() => {
-    //   setLoading(false)
-    // })
   }, [id])
 
   if (loading) {
