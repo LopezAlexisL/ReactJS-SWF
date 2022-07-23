@@ -2,8 +2,6 @@
 
 Este proyecto fue realizado por Alexis Lopez para el curso de ReactJS en Coderhouse comisión 31865. Es una tienda virtual de funko pops de la fraquicia de Star Wars, la cual tiene como objetivo simular todo el proceso relacionado a la navegación en el sitio, la visualización de los productos categorizados segun el grupo al que pertencen, y la adición de los productos a un carrito de compra con la finalización de dicho proceso. Esta principalmente orientado a usar React para el desarrollo y no tanto en relación al estilo aunque si se le dió un estilo basico.
 
-El e-commerce es posible verlo desde el sitio de github pages 
-
 Para poder visualizar el sitio utilizando el codigo se tiene que tener en cuenta lo siguiente
 
 ## 'clonar el repositorio desde GitHub'
